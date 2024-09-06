@@ -1,0 +1,19 @@
+.users_list_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.users_list_item span {
+  flex: 1;
+  text-align: center;
+  width: 200px;
+}
+
+.users_list_item span:not(:last-child) {
+  padding-right: 10px;
+}
